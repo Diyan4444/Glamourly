@@ -1,0 +1,51 @@
+﻿# Environment files (secrets & credentials)
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+/node_modules
+
+# Next.js build output
+.next/
+.next/**
+/.next/
+out/
+.out/**
+.build/**
+/dist/
+
+# Local tools, logs & artifacts
+graphify-out/
+omniroute/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Project specifics
+/output/
+.slim/deepwork/
+.omnivscodeagent/
+omnirouteCloud/
+omnirouteSite/
+_cache/
+_ideia/
+_mono_repo/
+_references/
+_tasks/
+.agents/**
+.claude/**
+.gemini/**
+.code-forge/**
+.config/**
+.data/**
+.logs/**
+.tests/**
+.coverage/**
+/coverage/
+.dist/**
+.vercel
+*.tsbuildinfo
+next-env.d.ts

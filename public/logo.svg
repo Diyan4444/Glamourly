@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="glamourly-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="50%" stop-color="#BE123C"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#E11D48" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Shield -->
+  <rect x="10" y="10" width="100" height="100" rx="28" fill="url(#glamourly-grad)" filter="url(#shadow)"/>
+  <!-- Elegant G Monogram & Sparkle -->
+  <path d="M60 28 C42 28 32 40 32 60 C32 80 44 92 62 92 C76 92 84 84 86 72 L60 72 L60 60 L98 60 C99 64 100 68 100 74 C100 90 85 102 62 102 C36 102 20 84 20 60 C20 34 38 18 62 18 C74 18 84 22 91 29 L82 38 C76 32 70 28 60 28 Z" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Sparkle Diamond -->
+  <path d="M86 32 L89 40 L97 43 L89 46 L86 54 L83 46 L75 43 L83 40 Z" fill="#FDE047"/>
+</svg>
